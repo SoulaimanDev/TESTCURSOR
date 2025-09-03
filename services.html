@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Services - Site Démo</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+	<header class="bg-white shadow">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="flex items-center justify-between h-16">
+				<a href="index.html" class="flex items-center gap-2">
+					<div class="w-8 h-8 rounded bg-blue-600"></div>
+					<span class="font-bold text-lg">MaMarque</span>
+				</a>
+				<nav class="hidden md:flex items-center gap-6">
+					<a href="index.html" class="text-sm font-medium hover:text-blue-600 transition">Accueil</a>
+					<a href="about.html" class="text-sm font-medium hover:text-blue-600 transition">À propos</a>
+					<a href="services.html" class="text-sm font-medium text-blue-600">Services</a>
+					<a href="contact.html" class="text-sm font-medium hover:text-blue-600 transition">Contact</a>
+				</nav>
+				<div class="md:hidden inline-flex items-center p-2 rounded hover:bg-gray-100">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="flex-1">
+		<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+			<header class="max-w-2xl">
+				<h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">Nos services</h1>
+				<p class="mt-4 text-gray-600">Des solutions adaptées pour développer votre présence numérique avec qualité et efficacité.</p>
+			</header>
+
+			<div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+				<!-- Card 1 -->
+				<article class="bg-white rounded-xl shadow p-6 hover:shadow-md transition">
+					<div class="w-12 h-12 rounded bg-blue-100 text-blue-700 flex items-center justify-center font-bold">UX</div>
+					<h2 class="mt-4 font-semibold text-lg">Design UX/UI</h2>
+					<p class="mt-2 text-sm text-gray-600">Conception d'interfaces intuitives et accessibles, centrées sur l'utilisateur.</p>
+				</article>
+				<!-- Card 2 -->
+				<article class="bg-white rounded-xl shadow p-6 hover:shadow-md transition">
+					<div class="w-12 h-12 rounded bg-blue-100 text-blue-700 flex items-center justify-center font-bold">INT</div>
+					<h2 class="mt-4 font-semibold text-lg">Intégration Web</h2>
+					<p class="mt-2 text-sm text-gray-600">Pages propres et performantes avec HTML sémantique et Tailwind CSS.</p>
+				</article>
+				<!-- Card 3 -->
+				<article class="bg-white rounded-xl shadow p-6 hover:shadow-md transition">
+					<div class="w-12 h-12 rounded bg-blue-100 text-blue-700 flex items-center justify-center font-bold">SEO</div>
+					<h2 class="mt-4 font-semibold text-lg">Optimisation SEO</h2>
+					<p class="mt-2 text-sm text-gray-600">Améliorez votre visibilité avec une structure et un contenu optimisés.</p>
+				</article>
+				<!-- Card 4 -->
+				<article class="bg-white rounded-xl shadow p-6 hover:shadow-md transition">
+					<div class="w-12 h-12 rounded bg-blue-100 text-blue-700 flex items-center justify-center font-bold">PERF</div>
+					<h2 class="mt-4 font-semibold text-lg">Performance</h2>
+					<p class="mt-2 text-sm text-gray-600">Chargements rapides et meilleures pratiques Core Web Vitals.</p>
+				</article>
+				<!-- Card 5 -->
+				<article class="bg-white rounded-xl shadow p-6 hover:shadow-md transition">
+					<div class="w-12 h-12 rounded bg-blue-100 text-blue-700 flex items-center justify-center font-bold">RESP</div>
+					<h2 class="mt-4 font-semibold text-lg">Responsive</h2>
+					<p class="mt-2 text-sm text-gray-600">Mise en page adaptée à tous les écrans avec un design mobile-first.</p>
+				</article>
+				<!-- Card 6 -->
+				<article class="bg-white rounded-xl shadow p-6 hover:shadow-md transition">
+					<div class="w-12 h-12 rounded bg-blue-100 text-blue-700 flex items-center justify-center font-bold">AUD</div>
+					<h2 class="mt-4 font-semibold text-lg">Audit & Conseil</h2>
+					<p class="mt-2 text-sm text-gray-600">Analyse de vos pages et recommandations concrètes d'amélioration.</p>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="bg-white border-t">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+			<p class="text-sm text-gray-500">© 2025 MaMarque. Tous droits réservés.</p>
+			<div class="flex items-center gap-4 text-sm text-gray-500">
+				<a href="#" class="hover:text-blue-600 transition">Mentions légales</a>
+				<a href="#" class="hover:text-blue-600 transition">Confidentialité</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

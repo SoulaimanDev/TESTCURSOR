@@ -1,0 +1,69 @@
+# 🧭 Projet de Préformation HTML + Tailwind CSS – Site 4 Pages
+
+## 🎯 Objectif
+
+Créer un site web **statique de 4 pages** en utilisant uniquement **HTML** et **Tailwind CSS** (aucun JavaScript, aucun CSS personnalisé).  
+Le but est d’apprendre à structurer un site, utiliser Tailwind pour le design, et créer une interface responsive.
+
+---
+
+## 📁 Structure du Projet
+
+
+---
+
+## 📄 Détail des Pages
+
+### 1. `index.html` – Accueil
+
+- **Header** : Logo + menu avec liens vers les 3 autres pages
+- **Hero Section** : Grand titre, texte d’introduction, bouton "En savoir plus"
+- **Footer** : Informations légales, copyright
+
+---
+
+### 2. `about.html` – À propos
+
+- **Header** : identique
+- **Section principale** :  
+  - Image ou icône à gauche  
+  - Texte de présentation à droite (responsive)
+- **Footer**
+
+---
+
+### 3. `services.html` – Nos Services
+
+- **Header**
+- **Section Services** :  
+  Présenter **3 à 6 services** sous forme de cartes :
+  - Icône ou image
+  - Titre
+  - Description
+- **Mise en page responsive** avec `flex` ou `grid`
+- **Footer**
+
+---
+
+### 4. `contact.html` – Contact
+
+- **Header**
+- **Formulaire de contact** :
+  - Champ Nom
+  - Champ Email
+  - Zone de message
+  - Bouton « Envoyer »
+- **Section infos pratiques** :
+  - Adresse, téléphone, réseaux sociaux
+- **Footer**
+
+---
+
+## 🎨 Règles de Design avec Tailwind CSS
+
+- Utilisation **exclusivement de classes Tailwind**
+- Responsive design (`sm:`, `md:`, `lg:`)
+- Typographie : `text-xl`, `font-bold`, etc.
+- Couleurs : `bg-gray-100`, `text-blue-600`, etc.
+- Effets : `hover:`, `transition`, `shadow`, `rounded`, etc.
+
